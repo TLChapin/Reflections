@@ -1,0 +1,42 @@
+﻿Git Commands
+
+git clone
+clone an existing repository
+
+git log
+shows all committs
+
+git diff commitId  commitID
+shows differences between committs
+
+git status
+status of repository
+git checkout commitID
+gets the files for the indicated committ
+
+Git commands to setup environment.
+git config --global core.editor "'C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\UEdit32.exe' -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+Reflections on file compare.
+Although FC works, Ultra Compare or many other text editors provide a much better interactive comparison environment.
+
+Reflections on History
+Archive and retrieval is much easier.
+
+Git log
+Look at submitted stuff.
+
+Pros and Cons of manually chosing commit time.
+Pro: Committs shoud be fully functional.
+Con: If you forget you may be messed up.
+
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat
+each file separately?
+
+Allows coincidental changes to multiple files to be managed with
+minimal effort.
+
