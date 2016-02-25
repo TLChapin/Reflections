@@ -10,3 +10,9 @@ Describe the differences between forks, clones, and branches. When would you use
 Fork: A "copy" of an existing GitHub repository into your own area.
 Clone: A "copy" of an existing repository copied to your local machine.
 Brandh: A named "copy" of another branch within your repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Offline comparison... online comparison to minimize work required to push/pull.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Not very well.
